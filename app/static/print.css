@@ -1,0 +1,20 @@
+
+@media print {
+
+  .navbar{
+       display: none;
+   }
+
+   .btn{
+        display: none;
+    }
+
+    a{
+         display: none;
+     }
+}
+
+
+
+
+

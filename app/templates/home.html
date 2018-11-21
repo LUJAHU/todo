@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+    <link rel="stylesheet" href="/static/1.css">
+    <div class="bunview">
+      <!-- view and creat button  -->
+    <a href="/tasks"><button type="button" class="btn btn-primary bun">View Tasks</button></a>
+  </div>
+  <div class="buncre">
+    <a href="/create_task"><button type="button" class="btn btn-primary bun">Creat Task</button></a>
+  </div>
+  <!-- big title -->
+    <h1 class="cen todo">To-do List</h1>
+  <!-- smaller text -->
+    <h2 class="li">Too many things !!!</h2>
+
+{% endblock %}

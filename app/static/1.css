@@ -1,0 +1,61 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+
+/* move todo */
+.todo {
+  position:relative;
+  top:-20px;
+  left:100px;
+  width: 600px;
+  height: 100px;
+  text-align:center;
+  font-family: Arial;
+  font-size: 80pt;
+  font-weight: bold;
+  color: #252626;
+}
+
+/* move view task button */
+.bunview {
+  position: relative;
+  top:376px;
+  left:246px;
+  height:100px;
+  width:500px;
+  text-align:center;
+}
+
+/* move create button */
+.buncre {
+  position: relative;
+  top:276px;
+  left:280px;
+  height:100px;
+  width:150px;
+  text-align:center;
+}
+
+/* smaller text */
+.li {
+  position: relative;
+  height:25px;
+  width:500px;
+  top:-25px;
+  left:170px;
+  text-align:center;
+  font-family: Arial;
+  font-size: 24pt;
+  font-weight: bold;
+  color: #0E0F0E;
+  font-style:italic;
+}
+/* set frame of button */
+.bun {
+  width:100px;
+  height:35px;
+  text-align:center;
+}

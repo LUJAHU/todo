@@ -1,0 +1,70 @@
+body {
+    background-image: url(img/cre.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+
+/* remove place of table */
+.tab {
+  height:400px;
+  width:500px;
+  position: relative;
+  top:50px;
+  left:-150px;
+}
+ /* column name of table */
+.col {
+  font-family: Arial;
+  font-size: 15pt;
+  color: #3B403B;
+}
+
+/* All tasks */
+.AT{
+  position: relative;
+  height:25px;
+  width:300px;
+  top:-15px;
+  left:-60px;
+  text-align:center;
+  font-family: Arial;
+  font-size: 26pt;
+  font-weight: 500;
+  color: #1C1F1C;
+}
+
+/* edit and delete button */
+.bun {
+  width:65px;
+  height:30px;
+  text-align:center;
+}
+
+/* Complete task */
+.CT{
+  position: relative;
+  height:25px;
+  width:300px;
+  top:-15px;
+  left:-22px;
+  text-align:center;
+  font-family: Arial;
+  font-size: 26pt;
+  font-weight: 500;
+  color: #1C1F1C;
+}
+
+/* Uncomplete task */
+.UT{
+  position: relative;
+  height:25px;
+  width:300px;
+  top:-15px;
+  left:-1px;
+  text-align:center;
+  font-family: Arial;
+  font-size: 26pt;
+  font-weight: 500;
+  color: #1C1F1C;
+}

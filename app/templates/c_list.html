@@ -1,0 +1,34 @@
+<!-- table of compelete task -->
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="/static/list.css">
+<div class="tab">
+  <p class="CT">Complete Tasks<br></p>
+<table class="table">
+    <thead>
+      <tr class="col">
+
+        <th>Description</th>
+        <th>Status</th>
+        <th>Deadline</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+
+    {% for task in tasks %}
+    <tr>
+
+      <td>{{task.Description}}</td>
+      <td>{{task.Status}}</td>
+      <td>{{task.Deadline}}</td>
+      <td><a href="/edit_com/{{task.Description}}"><button type="button" class="btn btn-primary bun">Edit</button></a></td>
+      <td><a href="/delete_com/{{task.Description}}"><button type="button" class="btn btn-primary bun">Delete</button></a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+
+{% endblock %}

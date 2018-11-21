@@ -1,0 +1,51 @@
+/* CSS of creat and edit html */
+body {
+    background-image: url(img/cre.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+ /* head of creat task */
+.he {
+  position: relative;
+  height:25px;
+  width:300px;
+  top:110px;
+  left:-166px;
+  text-align:center;
+  font-family: Arial;
+  font-size: 26pt;
+  font-weight: 400;
+  color: #1C1F1C;
+}
+
+/* input frame */
+.frame {
+  height:300px;
+  width:500px;
+  position: relative;
+  top:135px;
+  left:-150px;
+}
+/* submit menu */
+.sub {
+  height: 35px;
+  width:100px;
+  position: relative;
+  top:70px;
+  left:-150px;
+}
+
+/* head of edit task */
+.ed {
+  position: relative;
+  height:25px;
+  width:300px;
+  top:110px;
+  left:-228px;
+  text-align:center;
+  font-family: Arial;
+  font-size: 26pt;
+  font-weight: 400;
+  color: #1C1F1C;
+}
